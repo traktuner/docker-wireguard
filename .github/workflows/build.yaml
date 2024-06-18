@@ -34,7 +34,7 @@ jobs:
           tags: |
             type=sha,prefix=
 
-      - uses: docker/build-push-action@v5
+      - uses: docker/build-push-action@v6
         with:
           context: build
           build-args: |
